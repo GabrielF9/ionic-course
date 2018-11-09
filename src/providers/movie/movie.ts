@@ -12,7 +12,6 @@ export class MovieProvider {
   private baseApiPath = "https://api.themoviedb.org/3"
   private api_key = "c800531067de7802d131eb51f16d160b"
   constructor(public http: Http) {
-    console.log('Hello MovieProvider Provider');
   }
 
   getLatestMovies(){

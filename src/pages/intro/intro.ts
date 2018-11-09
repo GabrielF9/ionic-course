@@ -20,7 +20,6 @@ export class IntroPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad IntroPage');
   }
 
   goToTabsPage() {
