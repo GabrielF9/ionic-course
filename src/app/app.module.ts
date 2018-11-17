@@ -17,6 +17,7 @@ import { ProfilePageModule } from '../pages/profile/profile.module';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MovieProvider } from '../providers/movie/movie';
+import { FeedDetailsPageModule } from '../pages/feed-details/feed-details.module';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { MovieProvider } from '../providers/movie/movie';
     HttpModule,
     ConfigsPageModule,
     AboutPageModule,
-    ProfilePageModule
+    ProfilePageModule,
+    FeedDetailsPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
